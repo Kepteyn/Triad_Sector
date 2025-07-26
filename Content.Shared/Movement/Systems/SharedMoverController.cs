@@ -78,6 +78,8 @@ public abstract partial class SharedMoverController : VirtualController
     /// </summary>
     public Dictionary<EntityUid, bool> UsedMobMovement = new();
 
+    private readonly HashSet<EntityUid> _aroundColliderSet = new(); // (#38290)
+
     public override void Initialize()
     {
         UpdatesBefore.Add(typeof(TileFrictionController));
@@ -488,17 +490,23 @@ public abstract partial class SharedMoverController : VirtualController
     {
         var enlargedAABB = _lookup.GetWorldAABB(physicsUid, transform).Enlarged(mover.GrabRangeVV);
 
-        foreach (var otherCollider in broadPhaseSystem.GetCollidingEntities(transform.MapID, enlargedAABB))
+        // (#38290) reuse a pooled set instead of allocating a query result per call
+        _aroundColliderSet.Clear();
+        _lookup.GetEntitiesIntersecting(transform.MapID, enlargedAABB, _aroundColliderSet);
+        foreach (var otherEntity in _aroundColliderSet)
         {
-            if (otherCollider == collider)
+            if (otherEntity == physicsUid)
                 continue; // Don't try to push off of yourself!
+
+            if (!TryComp<PhysicsComponent>(otherEntity, out var otherCollider))
+                continue;
 
             // Only allow pushing off of anchored things that have collision.
             if (otherCollider.BodyType != BodyType.Static ||
                 !otherCollider.CanCollide ||
                 ((collider.CollisionMask & otherCollider.CollisionLayer) == 0 &&
                 (otherCollider.CollisionMask & collider.CollisionLayer) == 0) ||
-                (TryComp(otherCollider.Owner, out PullableComponent? pullable) && pullable.BeingPulled))
+                (TryComp(otherEntity, out PullableComponent? pullable) && pullable.BeingPulled))
             {
                 continue;
             }
