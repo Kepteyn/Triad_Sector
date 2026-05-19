@@ -714,3 +714,10 @@ Entries:
   id: 2208
   time: '2026-05-19T03:20:58.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/100
+- author: ScolarVisari
+  changes:
+    - type: Add
+      message: Colorable thick eyebrow markings to Humans and Dwarves.
+  id: 2209
+  time: '2026-05-19T03:30:36.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/95
