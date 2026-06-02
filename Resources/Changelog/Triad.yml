@@ -1122,3 +1122,18 @@ Entries:
   id: 2253
   time: '2026-06-02T03:29:46.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/171
+- author: Wuffindy
+  changes:
+    - type: Add
+      message: Syndicate electric range board now included in the combat bakery kit
+    - type: Tweak
+      message: several TC price inflation, and shrinkflation
+    - type: Tweak
+      message: Dark Mechs no longer obtainable through surplus crates
+    - type: Tweak
+      message: >-
+        Multiple description has been updated and changed to fit current server
+        info
+  id: 2254
+  time: '2026-06-02T07:54:54.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/128
