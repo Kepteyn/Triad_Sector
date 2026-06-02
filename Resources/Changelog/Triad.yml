@@ -1137,3 +1137,13 @@ Entries:
   id: 2254
   time: '2026-06-02T07:54:54.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/128
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        Markings, materials, and IPC/Silicon emotes whose translations were
+        missing now display proper localized names instead of raw prototype IDs
+        or literal English.
+  id: 2255
+  time: '2026-06-02T07:56:54.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/121
