@@ -1462,3 +1462,12 @@ Entries:
   id: 2286
   time: '2026-06-11T22:32:13.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/159
+- author: Dimasw99
+  changes:
+    - type: Tweak
+      message: Guardian Unit DPS buffed from 8 to 16
+    - type: Fix
+      message: Guardian Unit doing 0 damage
+  id: 2287
+  time: '2026-06-11T22:32:52.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/208
