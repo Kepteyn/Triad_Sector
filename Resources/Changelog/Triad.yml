@@ -1512,3 +1512,12 @@ Entries:
   id: 2292
   time: '2026-06-14T00:37:00.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/215
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: >-
+        Chameleon Projector will no longer cause you to be permanently slowed
+        down
+  id: 2293
+  time: '2026-06-14T01:22:59.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/221
