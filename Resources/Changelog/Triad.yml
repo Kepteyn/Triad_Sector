@@ -1626,3 +1626,14 @@ Entries:
   id: 2304
   time: '2026-06-15T13:06:28.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/192
+- author: TheBweepers
+  changes:
+    - type: Add
+      message: Allows Slime People to eat cloth, paper, raw meat, and everything else!
+    - type: Tweak
+      message: >-
+        Adjusts Allicin and Theobromise to stop slime people from being effected
+        by them after the above change made them suseptable
+  id: 2305
+  time: '2026-06-15T13:10:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/169
