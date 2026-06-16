@@ -1646,3 +1646,14 @@ Entries:
   id: 2306
   time: '2026-06-16T02:39:11.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/232
+- author: Virnazush
+  changes:
+    - type: Add
+      message: MLA-79 Harness
+    - type: Tweak
+      message: >-
+        MLA-79 Smartgun weapon now requires the Harness to function, without it
+        the player will suffer movement and accuracy penalties.
+  id: 2307
+  time: '2026-06-16T03:00:19.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/176
