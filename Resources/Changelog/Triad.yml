@@ -1774,3 +1774,12 @@ Entries:
   id: 2315
   time: '2026-06-20T06:05:45.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/241
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        Procedural dungeon generation (bluespace asteroid events and salvage
+        expeditions) no longer causes a server lag spike when it spawns.
+  id: 2316
+  time: '2026-06-20T08:17:28.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/229
