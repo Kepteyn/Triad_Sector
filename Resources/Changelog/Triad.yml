@@ -1823,3 +1823,20 @@ Entries:
   id: 2318
   time: '2026-06-20T14:54:07.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/224
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: Fix ironman loading ship bug, now's unable to load any ship.
+    - type: Fix
+      message: Chemmaster bricked saving and loading.
+    - type: Tweak
+      message: >-
+        Fragment drone gun is unable to save due to it's instability and
+        complicated mechanism.
+    - type: Tweak
+      message: >-
+        Loading a ship can no longer put you into debt, it will fail if you do
+        not have enough funds.
+  id: 2319
+  time: '2026-06-21T07:16:46.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/162
