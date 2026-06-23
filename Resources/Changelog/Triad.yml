@@ -1910,3 +1910,10 @@ Entries:
   id: 2326
   time: '2026-06-23T07:10:26.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/253
+- author: rebaserHEAD
+  changes:
+    - type: Tweak
+      message: Optimized space wind performance during large depressurization events.
+  id: 2327
+  time: '2026-06-23T07:19:59.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/252
