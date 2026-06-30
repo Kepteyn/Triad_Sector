@@ -2045,3 +2045,10 @@ Entries:
   id: 2341
   time: '2026-06-30T01:53:31.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/273
+- author: IngvarJackal
+  changes:
+    - type: Tweak
+      message: Sinks and drains are moveable
+  id: 2342
+  time: '2026-06-30T06:15:18.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/151
