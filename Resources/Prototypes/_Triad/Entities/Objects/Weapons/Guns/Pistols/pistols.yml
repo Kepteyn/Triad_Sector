@@ -9,7 +9,7 @@
     maxAngle: -6
     bonusFireRate: -1
     requiresToggle: false
-    doAfterTime: 1.5
+    doAfterTime: 1
   - type: GunChangeShotSoundOnToggled
     sound:
       path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/hawk_fire.ogg
