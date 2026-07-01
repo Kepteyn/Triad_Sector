@@ -34,6 +34,8 @@
         Quantity: 1
   - type: DrainableSolution
     solution: tank
+  - type: Transform # Triad, movable sinks
+    anchored: true
   - type: ReagentTank
   - type: Drain
     autoDrain: false
