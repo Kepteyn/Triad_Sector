@@ -2111,3 +2111,12 @@ Entries:
   id: 2349
   time: '2026-07-04T14:30:43.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/286
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: >-
+        High Command Outpost - Area for admins to RP their CC characters with
+        players
+  id: 2350
+  time: '2026-07-05T04:16:35.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/280
