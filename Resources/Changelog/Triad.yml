@@ -2239,3 +2239,12 @@ Entries:
   id: 2360
   time: '2026-07-08T13:56:26.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/289
+- author: DDrakov
+  changes:
+    - type: Add
+      message: Added new station, Venmar Station
+    - type: Remove
+      message: Removed old CC
+  id: 2361
+  time: '2026-07-08T14:33:36.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/250
