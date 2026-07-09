@@ -2304,3 +2304,12 @@ Entries:
   id: 2368
   time: '2026-07-09T12:18:23.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/267
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed pipes and other machines not being anchorable under directional
+        windows.
+  id: 2369
+  time: '2026-07-09T13:24:50.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/310
