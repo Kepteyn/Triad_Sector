@@ -2326,3 +2326,13 @@ Entries:
   id: 2370
   time: '2026-07-09T16:25:26.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/313
+- author: Minerva
+  changes:
+    - type: Add
+      message: >-
+        The medal case has been added to loadout. Captains can now give a small
+        variety of medals to crewmembers who go above and beyond in their
+        duties.
+  id: 2371
+  time: '2026-07-09T16:27:38.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/306
