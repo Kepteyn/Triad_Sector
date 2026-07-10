@@ -2382,3 +2382,12 @@ Entries:
   id: 2375
   time: '2026-07-10T13:47:45.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/315
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed auth disruptors and emags being marked as 'imperial coalition'
+        contraband. They are now marked as Class 2 contra.
+  id: 2376
+  time: '2026-07-10T13:48:27.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/317
