@@ -2434,3 +2434,10 @@ Entries:
   id: 2379
   time: '2026-07-10T14:20:14.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/321
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Auric adjustments after feedback 1.1 (the mechanics overhaul)
+  id: 2380
+  time: '2026-07-10T14:23:36.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/320
