@@ -2373,3 +2373,12 @@ Entries:
   id: 2374
   time: '2026-07-10T13:06:31.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/259
+- author: Upstream
+  changes:
+    - type: Fix
+      message: >-
+        The forensic scanner no longer leaks fingerprints or glove prints onto
+        the scanning object if you use the right-click scan verb.
+  id: 2375
+  time: '2026-07-10T13:47:45.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/315
