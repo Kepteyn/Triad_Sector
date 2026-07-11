@@ -2441,3 +2441,12 @@ Entries:
   id: 2380
   time: '2026-07-10T14:23:36.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/320
+- author: rebaserHEAD
+  changes:
+    - type: Fix
+      message: >-
+        A broken NPC brain no longer freezes AI updates for every other NPC on
+        the server.
+  id: 2381
+  time: '2026-07-11T05:36:48.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/330
