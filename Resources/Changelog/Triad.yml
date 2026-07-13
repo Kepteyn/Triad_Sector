@@ -2539,3 +2539,10 @@ Entries:
   id: 2392
   time: '2026-07-13T21:47:14.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/336
+- author: HameyTychol
+  changes:
+    - type: Fix
+      message: Avalis should be able to get drunk now!
+  id: 2393
+  time: '2026-07-13T21:49:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/316
