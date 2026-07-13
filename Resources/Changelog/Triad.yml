@@ -2555,3 +2555,14 @@ Entries:
   id: 2394
   time: '2026-07-13T22:20:46.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/348
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: Warden now requires 20 hours of TDF time, rather than 25.
+    - type: Tweak
+      message: >-
+        Loosened patrol team leader requirements, now requires 15 hours of TDF
+        and 30 hours of overall playtime.
+  id: 2395
+  time: '2026-07-13T22:22:39.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/351
