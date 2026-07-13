@@ -2505,3 +2505,10 @@ Entries:
   id: 2388
   time: '2026-07-12T13:17:56.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/345
+- author: NEWSUI
+  changes:
+    - type: Add
+      message: NSC Horizon Cargo Freighter.
+  id: 2389
+  time: '2026-07-13T08:22:10.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/308
