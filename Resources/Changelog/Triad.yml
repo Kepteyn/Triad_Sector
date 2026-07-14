@@ -2609,3 +2609,12 @@ Entries:
   id: 2399
   time: '2026-07-14T14:34:05.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/354
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Auric to version 1.2
+    - type: Fix
+      message: Ivy burning to death on Venmar
+  id: 2400
+  time: '2026-07-14T15:21:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/357
