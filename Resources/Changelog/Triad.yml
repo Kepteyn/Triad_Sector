@@ -2584,3 +2584,14 @@ Entries:
   id: 2396
   time: '2026-07-13T22:45:39.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/96
+- author: pandoraberry
+  changes:
+    - type: Add
+      message: >-
+        Added new Slime Person customization, including new chest, head, tail
+        and snout markings
+    - type: Tweak
+      message: Slimes can now use compatible Reptilian, Vulpkanin, and Tajaran markings
+  id: 2397
+  time: '2026-07-14T00:04:13.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/342
