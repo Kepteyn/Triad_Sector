@@ -2662,3 +2662,18 @@ Entries:
   id: 2404
   time: '2026-07-16T12:45:36.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/322
+- author: DDrakov
+  changes:
+    - type: Add
+      message: TDF RnD and it's Tech
+    - type: Add
+      message: TDF Designated Ship ID Tier 0, Tier 1 and Tier 2
+    - type: Add
+      message: 'TDF LMG '
+    - type: Tweak
+      message: Moved Adjutant into Tier 2
+    - type: Add
+      message: Add Jester, Fling, and Mercy to TDF shipyard
+  id: 2405
+  time: '2026-07-16T13:58:24.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/346
