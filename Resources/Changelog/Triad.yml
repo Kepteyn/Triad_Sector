@@ -2698,3 +2698,13 @@ Entries:
   id: 2408
   time: '2026-07-17T07:03:43.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/372
+- author: Minerva
+  changes:
+    - type: Fix
+      message: >-
+        Decorative greeble (antenna, ELINT, radar) construction ghosts have been
+        partially fixed. When placed as contruction ghosts, they now display
+        properly. Placement previews have not been fixed yet.
+  id: 2409
+  time: '2026-07-17T20:01:04.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/323
