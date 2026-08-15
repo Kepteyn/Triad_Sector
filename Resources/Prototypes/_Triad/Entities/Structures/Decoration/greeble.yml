@@ -1,0 +1,19 @@
+
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriSmallDish
+  name: radar dish
+  description: Recieves and transmits electromagnetic signals into space.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,1
+    sprite: _Triad/Structure/Decoration/Greeble/32x32.rsi
+    layers:
+    - state: bronze-dish
+  # Triad changes - Buildable greebles.
+  #- type: Construction
+  #  graph: TriadGreebles
+  #  node: elint1
+  # End Triad
