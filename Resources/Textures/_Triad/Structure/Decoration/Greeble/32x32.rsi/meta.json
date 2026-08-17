@@ -9,6 +9,21 @@
   "states": [
 	{
       "name": "bronze-dish"
+    },
+    {
+      "name": "pole"
+    },
+    {
+      "name": "pole-anchor"
+    },
+    {
+      "name": "poleend-right"
+    },
+    {
+      "name": "poleend-left"
+    },
+    {
+      "name": "pole-stripes"
     }
   ]
 }

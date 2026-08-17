@@ -3,18 +3,15 @@
   "license": "CC-BY-SA-4.0",
   "copyright": "Made by Kepteyn for Triad",
   "size": {
-    "x": 64,
-    "y": 64
+    "x": 96,
+    "y": 96
   },
   "states": [
 	{
-      "name": "tank"
+      "name": "bronze-dish-96"
     },
-    {
-      "name": "tank-ox"
-    },
-    {
-      "name": "tank-nit"
+	{
+      "name": "bronze-dish-96-2"
     }
   ]
 }

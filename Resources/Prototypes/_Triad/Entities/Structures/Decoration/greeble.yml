@@ -3,6 +3,7 @@
   parent: BaseGreeble
   id: GreebleTriSmallDish
   name: radar dish
+  suffix: small
   description: Recieves and transmits electromagnetic signals into space.
   placement:
     mode: SnapgridCenter
@@ -17,3 +18,139 @@
   #  graph: TriadGreebles
   #  node: elint1
   # End Triad
+
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriBigDish
+  name: radar dish
+  suffix: large
+  description: Recieves and transmits electromagnetic signals into space.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,1
+    sprite: _Triad/Structure/Decoration/Greeble/96x96.rsi
+    layers:
+    - state: bronze-dish-96
+
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriBigDishAlt
+  name: radar dish
+  suffix: large alternate
+  description: Recieves and transmits electromagnetic signals into space.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,1
+    sprite: _Triad/Structure/Decoration/Greeble/96x96.rsi
+    layers:
+    - state: bronze-dish-96-2
+
+# Poles from SPLURT
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriPole
+  name: steel pole
+  description: A metal pole, the likes of which are commonly used as an antennae, structural support, or simply to maneuver in zero-g.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,1
+    sprite: _Triad/Structure/Decoration/Greeble/32x32.rsi
+    layers:
+    - state: pole
+
+- type: entity
+  parent: GreebleTriPole
+  id: GreebleTriPole-Anchor
+  name: steel pole
+  suffix: anchor
+  description: A metal pole, the likes of which are commonly used as an antennae, structural support, or simply to maneuver in zero-g.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    layers:
+    - state: pole-anchor
+
+- type: entity
+  parent: GreebleTriPole
+  id: GreebleTriPole-Right
+  name: steel pole
+  suffix: right end
+  description: A metal pole, the likes of which are commonly used as an antennae, structural support, or simply to maneuver in zero-g.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    layers:
+    - state: poleend-right
+
+- type: entity
+  parent: GreebleTriPole
+  id: GreebleTriPole-Left
+  name: steel pole
+  suffix: left end
+  description: A metal pole, the likes of which are commonly used as an antennae, structural support, or simply to maneuver in zero-g.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    layers:
+    - state: poleend-left
+
+- type: entity
+  parent: GreebleTriPole
+  id: GreebleTriPole-Stripes
+  name: steel pole
+  suffix: stripes
+  description: A metal pole, the likes of which are commonly used as an antennae, structural support, or simply to maneuver in zero-g.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    layers:
+    - state: pole-stripes
+
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriSphereTank
+  name: external tank
+  description: A large, spherical tank with a vast internal volume when under pressure.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,1.5
+    sprite: _Triad/Structure/Decoration/Greeble/64x64.rsi
+    layers:
+    - state: tank
+
+- type: entity
+  parent: GreebleTriSphereTank
+  id: GreebleTriSphereTankOx
+  name: external oxygen tank
+  description: A large, spherical tank with a vast internal volume when under pressure. The blue stripes indicate it holds oxygen.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    layers:
+    - state: tank-ox
+
+- type: entity
+  parent: GreebleTriSphereTank
+  id: GreebleTriSphereTankNit
+  name: external nitrogen tank
+  description: A large, spherical tank with a vast internal volume when under pressure. The red stripes indicate it holds nitrogen. Or something very flammable. It's a 50/50 chance.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    layers:
+    - state: tank-nit
+
