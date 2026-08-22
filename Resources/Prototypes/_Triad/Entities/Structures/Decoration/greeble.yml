@@ -116,6 +116,22 @@
     layers:
     - state: pole-stripes
 
+#Tank greebles
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriSmallSphereTank
+  name: external tank
+  suffix: Small
+  description: A spherical tank with a significant internal volume when under pressure.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,1
+    sprite: _Triad/Structure/Decoration/Greeble/32x32.rsi
+    layers:
+    - state: tanksmall
+
 - type: entity
   parent: BaseGreeble
   id: GreebleTriSphereTank
@@ -133,7 +149,8 @@
 - type: entity
   parent: GreebleTriSphereTank
   id: GreebleTriSphereTankOx
-  name: external oxygen tank
+  name: external tank
+  suffix: Blue Oxy
   description: A large, spherical tank with a vast internal volume when under pressure. The blue stripes indicate it holds oxygen.
   placement:
     mode: SnapgridCenter
@@ -145,7 +162,8 @@
 - type: entity
   parent: GreebleTriSphereTank
   id: GreebleTriSphereTankNit
-  name: external nitrogen tank
+  name: external tank
+  suffix: Red Nit
   description: A large, spherical tank with a vast internal volume when under pressure. The red stripes indicate it holds nitrogen. Or something very flammable. It's a 50/50 chance.
   placement:
     mode: SnapgridCenter
@@ -154,3 +172,39 @@
     layers:
     - state: tank-nit
 
+# Radiator greebles
+
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriRadiator-A
+  name: radiator
+  suffix: A
+  description: A large, glowing-hot radiator for irradiating excess heat from a space craft so the crew inside don't start frying.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,2
+    sprite: _Triad/Structure/Decoration/Greeble/32x96.rsi
+    layers:
+    - state: radiator1
+  - type: PointLight
+    enabled: true
+    offset: 0,1.5
+    radius: 3
+    color: "#e3655c" # light red
+
+- type: entity
+  parent: BaseGreeble
+  id: GreebleTriRadiator-B
+  name: radiator
+  suffix: B
+  description: A large, glowing-hot radiator for irradiating excess heat from a space craft so the crew inside don't start frying.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    offset: 0,2
+    sprite: _Triad/Structure/Decoration/Greeble/32x96.rsi
+    layers:
+    - state: radiator2
